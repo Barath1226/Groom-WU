@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1cm;
+}
+#form-group{
+    border: 50px;
+}
+#bg{
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#email{
+    background-color:white;
+}
+#phonenumber{
+    background-color: white;
+}
+#message{
+    background-color: white;
+}
+#ph{
+    border: 3px outset black;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+}
+#sc{
+    border: 3px outset black;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+}

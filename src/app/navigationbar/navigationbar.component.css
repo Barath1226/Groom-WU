@@ -1,0 +1,32 @@
+#navigationbar{
+       display: flex;
+       justify-content: space-evenly;
+       color: white;
+       background-color: orange;
+}
+ul{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-between;
+    list-style: none;
+}
+img{
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+button{
+    letter-spacing: 3px;
+    font-style:italic;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: beige;
+}

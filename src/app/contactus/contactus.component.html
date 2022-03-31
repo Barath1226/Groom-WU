@@ -1,0 +1,41 @@
+<section id="bg">
+    <h1>Your queries are our improvement!</h1>
+    <div id="container">
+        <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+            <div formGroupName="userData">
+                <div class="form-group">
+                    <input type="text" id="email" class="form-control" formControlName="email" placeholder="Enter your email">
+                    <span *ngIf="!signupForm.get('userData.email').valid && signupForm.get('userData.email').touched">
+                        Please enter a valid email
+                    </span>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <input type="text" id="phonenumber" class="form-control" formControlName="phonenumber" placeholder="Enter your phone number">
+                    <span *ngIf="!signupForm.get('userData.phonenumber').valid && signupForm.get('userData.phonenumber').touched">
+                        Please enter a valid phonenumber
+                    </span>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <textarea formControlName="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <br><br>
+                <div class="button">
+                    <button class="btn btn-warning" type="submit">Submit Form</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+<h2>You can contact us through the below mentioned phone number or by email id</h2>
+<div id="ph">
+<p>Phone Number: 9988776655</p>
+<p>Email: groomwithus@gmail.com</p>
+</div>
+<h2>Do Follow Us on Social Media</h2>
+<div id="sc">
+<p>Instagram: GroomWithUs</p>
+<p>Twitter: GroomWithUs</p>
+</div>
+</section>

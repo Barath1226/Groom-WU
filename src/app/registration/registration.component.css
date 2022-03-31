@@ -1,0 +1,27 @@
+#container{
+    background-color: darkblue;
+}
+.form-group{
+    width: 450px;
+  padding: 25px;
+  border-radius: 4px;
+  margin: auto;
+
+}
+.button{
+    width: 450px;
+  background-color: orange;
+  color: white;
+  padding: 14px 14px;
+  margin: auto;
+  border: none;
+  border-radius: 4px;
+  
+}
+#db{
+  text-align: center;
+  background-color: lightseagreen;
+}
+.button{
+  text-align: center;
+}

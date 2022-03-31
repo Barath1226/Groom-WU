@@ -1,0 +1,11 @@
+<div id="navigationbar">
+        <ul>
+        <li><a (click)="changeView()" routerLink="home">Home</a></li>
+        <li><a (click)="changeView()" routerLink="about">About</a></li>
+        <li><a (click)="changeView()" routerLink="orders">Orders</a></li>
+        <li><a (click)="changeView()" routerLink="contactus">Contact Us</a></li>
+        <li><button (click)="changeView()" routerLink="register">Signup</button></li>
+        </ul>
+</div>
+
+<img *ngIf="imgVisible" src="https://cdn.pixabay.com/photo/2020/03/31/01/58/no-shave-4985994__340.png" alt="">
